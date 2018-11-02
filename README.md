@@ -10,7 +10,7 @@
 
 ![working](https://user-images.githubusercontent.com/23325839/47912160-03566d80-dedb-11e8-884e-3d06354ece6b.png)
 
-時間になると、以下のように **最大化表示したメモ帳** でリマインドされます。
+時間になると、以下のように **最大化表示したメモ帳** でリマインドされます。(※以下は早くキャプチャしたいので横着して 3 秒リマインド `r 3 カップラーメン` を実行した例ですが)
 
 ![remind](https://user-images.githubusercontent.com/23325839/47912131-e9b52600-deda-11e8-9535-6b504b75925f.png)
 
