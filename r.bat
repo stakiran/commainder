@@ -1,10 +1,10 @@
 @echo off
 setlocal
 
-rem Commainder v0.1.1
+rem Commainder v0.2.0
 rem ================
 
-set n=%1
+set waitmin=%1
 set msg=%*
 
 set datafoldername=.commainder
@@ -16,8 +16,8 @@ if not exist %datafolderfull% (
 	mkdir %datafolderfull%
 )
 
-if "%n%"=="" (
-	set n=0
+if "%waitmin%"=="" (
+	set waitmin=0
 )
 
 if "%msg%"=="" (
@@ -40,14 +40,16 @@ set databasename=%todaydatetime%
 set datafilename=%databasename%%dataext%
 set datafilefull=%datafolderfull%\%datafilename%
 
+set /a waitsec=%waitmin%*60
+
 echo 【リマインド内容】 > %datafilefull%
 echo %msg% >> %datafilefull%
 echo.>> %datafilefull%
 echo ======== >> %datafilefull%
 echo.>> %datafilefull%
 echo Set from: %todaydate_for_disp% %todaytime_for_disp%.  >> %datafilefull%
-echo Wait sec: %n% Secs.  >> %datafilefull%
+echo Wait sec: %waitmin% Minutes.  >> %datafilefull%
 
-title %n%秒後にリマインド
-timeout /T %n% /nobreak
+title %waitmin%分後にリマインド
+timeout /T %waitsec% /nobreak
 start "" /max notepad "%datafilefull%"
