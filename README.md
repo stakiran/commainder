@@ -6,8 +6,6 @@
 
 ![commainder_from_run](https://user-images.githubusercontent.com/23325839/48126693-28752280-e2c5-11e8-8b28-bbc14413dd0f.jpg)
 
-![from_run](https://user-images.githubusercontent.com/23325839/47912109-d43ffc00-deda-11e8-9b72-24c560164126.png)
-
 動作中は DOS 窓が動きますので、適当に最小化でもしておいてください。
 
 ![commainder_dos_window](https://user-images.githubusercontent.com/23325839/48126698-2b701300-e2c5-11e8-97fb-8697bcc03a63.jpg)
