@@ -1,18 +1,20 @@
 # Commainder
-バッチファイル謹製リマインダー。`r 180 カップラーメン` で 3 分後に「カップラーメン」と表示。
+バッチファイル謹製リマインダー。`r 3 カップラーメン` で 3 分後に「カップラーメン」と表示。
 
 ## デモ
 たとえばファイル名を指定して実行から、以下のようにして指定します。
+
+![commainder_from_run](https://user-images.githubusercontent.com/23325839/48126693-28752280-e2c5-11e8-8b28-bbc14413dd0f.jpg)
 
 ![from_run](https://user-images.githubusercontent.com/23325839/47912109-d43ffc00-deda-11e8-9b72-24c560164126.png)
 
 動作中は DOS 窓が動きますので、適当に最小化でもしておいてください。
 
-![working](https://user-images.githubusercontent.com/23325839/47912160-03566d80-dedb-11e8-884e-3d06354ece6b.png)
+![commainder_dos_window](https://user-images.githubusercontent.com/23325839/48126698-2b701300-e2c5-11e8-97fb-8697bcc03a63.jpg)
 
-時間になると、以下のように **最大化表示したメモ帳** でリマインドされます。(※以下は早くキャプチャしたいので横着して 3 秒リマインド `r 3 カップラーメン` を実行した例ですが)
+時間になると、以下のように **最大化表示したメモ帳** でリマインドされます。
 
-![remind](https://user-images.githubusercontent.com/23325839/47912131-e9b52600-deda-11e8-9535-6b504b75925f.png)
+![commainder_reminding](https://user-images.githubusercontent.com/23325839/48126704-2d39d680-e2c5-11e8-8af9-31709783d419.jpg)
 
 ## 動作環境
 - Windows 7 以降
@@ -28,14 +30,14 @@
 呼び出し例:
 
 - 3分後に「カップラーメン」と表示
-  - → `r 180 カップラーメン`
+  - → `r 3 カップラーメン`
 - 3分後にリマインド（メッセージ内容を省略する）
-  - → `r 180`
+  - → `r 3`
 
 一般的なフォーマット:
 
-- `r (秒数) (リマインド内容)`
-- 秒数は省略すると 0 とみなされ、即座にリマインドされます。
+- `r (分) (リマインド内容)`
+- 分を省略すると 0 とみなされ、即座にリマインドされます。
 - リマインド内容は省略できます。
 
 ## 技術的な話
