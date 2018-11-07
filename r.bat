@@ -1,13 +1,13 @@
 @echo off
 setlocal
 
-rem Comminder v0.1.0
+rem Commainder v0.1.1
 rem ================
 
 set n=%1
 set msg=%*
 
-set datafoldername=.comminder
+set datafoldername=.commainder
 set datafolderfull=%userprofile%\%datafoldername%
 set dataext=.txt
 

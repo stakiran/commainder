@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set datafolder=%userprofile%\.comminder
+set datafolder=%userprofile%\.commainder
 
 if not exist %datafolder% (
 	echo データフォルダ `%datafolder%` が存在しません.
