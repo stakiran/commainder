@@ -22,6 +22,11 @@
 ## 動作環境
 - Windows 7 以降
 
+## 入手
+Git を使う方は `git clone` などで適当に。
+
+ブラウザからダウンロードする方は [Download ZIP](https://github.com/stakiran/commainder/archive/master.zip) より zip ファイルをダウンロードし、適当なディレクトリに展開してください。ただし **展開した r.bat の改行コードが CRLF であることを確認してください**。LF だと動作しません。LF の場合は CRLF に手動で変換してください(テキストエディタで開いて CRLF で保存し直す、など)。
+
 ## 使い方
 - (1) `r.bat` を実行する
   - データフォルダが `%userprofile%\.commainder` 配下に生成されます
